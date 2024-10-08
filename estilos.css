@@ -91,10 +91,15 @@ ul {
     box-shadow: 0px 4px 10px #0f2f44;
 }
 
-.hero h1 {
+.hero div {
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    margin-top: 120px;
-    font-size: 30px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-top: 70px;
 }
  
 .hero h1 strong{
@@ -109,15 +114,24 @@ ul {
     max-height: 300px;
 }
 
-.hero .download-cv {
+.hero div .download-cv {
     display: inline-block;
-    background-color: #0f2f44; /* Azul Zafiro Oscuro */
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 1.2em;
-    transition: background-color 0.3s ease;
-    margin-top: 120px;
-    margin-bottom: 150PX;
-    text-align: center;
+    padding: 12px 25px; 
+    background-color: #FF8C00; 
+    color: white; 
+    text-decoration: none; 
+    border-radius: 25px;
+    font-size: 1.2em; 
+    font-weight: bold;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 20px; 
+    margin-left: 150px;
+    margin-right: 100px;
+}
+
+.hero div .download-cv:hover {
+    background-color: #ffa500;
+    transform: translateY(-3px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4);
 }
