@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #2c3e50;
+    color: white;
+    margin-left: 250px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar {
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    justify-content: space-between;
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #1a252f;
+    padding-top: 20px;
+    border-radius: 25px;
+}
+
+.navbar ul {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin-right: 0;
+}
+
+.navbar img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.navbar li {
+    margin-bottom: 20px;
+}
+
+.navbar li a {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    text-align: center;
+    transition: 0.5s ease;
+}
+
+.navbar li a:hover {
+    background-color: #0f2f44;
+    border-radius: 10px;
+}
+
+.navbar .Repositorio {
+    display: block;
+    background-color: #FF8C00;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    transition: background-color 1s ease;
+    margin-bottom: 20px;
+}
+
+.navbar .Repositorio svg {
+    height: 20px;
+    margin-right: 10px;
+}
+
+.navbar .Repositorio:hover {
+    background-color: #a35c00;
+}
+
+.hero  {
+    background-color: #2C2F33;
+    display: flex;
+    align-items: space-between;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px #0f2f44;
+}
+
+.hero h1 {
+    text-align: center;
+    margin-top: 120px;
+    font-size: 30px;
+}
+ 
+.hero h1 strong{
+     color: #FF8C00;
+     font-weight: bold;
+}
+
+.hero img {
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+}
+
+.hero .download-cv {
+    display: inline-block;
+    background-color: #0f2f44; /* Azul Zafiro Oscuro */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+    margin-top: 120px;
+    margin-bottom: 150PX;
+    text-align: center;
+}
